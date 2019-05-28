@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# Paul Reed
+# 28 May 2019
 
 import math
 

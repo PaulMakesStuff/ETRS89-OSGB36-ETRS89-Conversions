@@ -128,6 +128,8 @@ def OSGB36ToETRS89(easting, northing):
 
   return {'EN':[easting, northing], 'LL':[lat, lng]}
 
+# Test of conversion from ETRS89 to OSGB36 and back again:
+
 OSGB36 = ETRS89ToOSGB36(51.292798, -0.793407) 
 print(OSGB36)
 
